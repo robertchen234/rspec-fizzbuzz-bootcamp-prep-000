@@ -3,11 +3,11 @@
 
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
-    print "Fizzbuzz"
+    return "Fizzbuzz"
   elseif number % 3 == 0
-    print "Fizz"
+    return "Fizz"
   elseif number % 5 == 0
-    print "Buzz"
+    return "Buzz"
   else
     return false
   end
