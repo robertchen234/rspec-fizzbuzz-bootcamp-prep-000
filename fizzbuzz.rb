@@ -9,5 +9,5 @@ def fizzbuzz(number)
   elseif number % 5 == 0
     print "Buzz"
   else
-    false
+    return false
 end
