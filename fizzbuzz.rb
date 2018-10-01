@@ -10,4 +10,5 @@ def fizzbuzz(number)
     print "Buzz"
   else
     return false
+  end
 end
